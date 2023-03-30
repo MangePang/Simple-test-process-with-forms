@@ -1,0 +1,25 @@
+{
+  "components": [
+    {
+      "text": "# Mock active applications for testing purposes",
+      "type": "text",
+      "id": "Field_0ybqjm4"
+    },
+    {
+      "label": "Does the customer have current active applications?",
+      "type": "checkbox",
+      "id": "Field_0rshbsd",
+      "key": "customer_active_applications_input",
+      "description": "This will be a bolean value"
+    }
+  ],
+  "type": "default",
+  "id": "customer_active_applications",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.8.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 7
+}

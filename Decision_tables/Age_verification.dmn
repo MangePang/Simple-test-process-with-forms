@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:camunda="http://camunda.org/schema/1.0/dmn" id="Definitions_0xuwm7s" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.8.0" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.18.0">
+  <decision id="customer_age_dmn" name="Age verification DMN">
+    <decisionTable id="DecisionTable_0hlv3g5">
+      <input id="Input_1" label="Age" camunda:inputVariable="customer_age">
+        <inputExpression id="InputExpression_1" typeRef="integer">
+          <text></text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" name="Age decision" typeRef="string" />
+      <rule id="DecisionRule_1e04arz">
+        <inputEntry id="UnaryTests_09n1hyx">
+          <text>[0..17]</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_09jaeex">
+          <text>"customer_age_rejected"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0lccupy">
+        <inputEntry id="UnaryTests_0erq4am">
+          <text>[18..203]</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1sdoe80">
+          <text>"customer_age_approved"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="customer_age_dmn">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>

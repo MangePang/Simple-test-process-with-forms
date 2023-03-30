@@ -1,0 +1,25 @@
+{
+  "components": [
+    {
+      "text": "# Mock to validate if SSN exist ",
+      "type": "text",
+      "id": "Field_1pu1s2b"
+    },
+    {
+      "label": "Does SSN exist at Bisnode?",
+      "type": "checkbox",
+      "id": "Field_1vx8aac",
+      "key": "user_validate_ssn_result",
+      "description": "Bolean = true or false"
+    }
+  ],
+  "type": "default",
+  "id": "customer_ssn_validation",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.8.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 7
+}

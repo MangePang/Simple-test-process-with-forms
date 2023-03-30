@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "text": "# Mock to illustrate what we expect from core system",
+      "type": "text",
+      "id": "Field_05hu7yq"
+    },
+    {
+      "label": "Rate code",
+      "type": "textfield",
+      "id": "Field_1q7jovb",
+      "key": "field_0zfyftt",
+      "description": "String = HL,UL,CL"
+    },
+    {
+      "label": "From date",
+      "type": "textfield",
+      "id": "Field_005u4j7",
+      "key": "mock_core_from_date",
+      "description": "String = 2001.01.01"
+    },
+    {
+      "label": "Rate value",
+      "type": "textfield",
+      "id": "Field_1ui359r",
+      "key": "field_0d6z9w5",
+      "description": "Float = 3.23"
+    },
+    {
+      "label": "Loan to value thresholds",
+      "type": "textfield",
+      "id": "Field_0xm24nf",
+      "key": "ltv",
+      "description": "String = 75%"
+    },
+    {
+      "label": "Account number if existing customer",
+      "type": "textfield",
+      "id": "Field_10pftpy",
+      "key": "field_16ae78s",
+      "description": "String = 1232 32232 23"
+    }
+  ],
+  "type": "default",
+  "id": "mock_core_products",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.8.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 7
+}

@@ -1,0 +1,60 @@
+{
+  "components": [
+    {
+      "text": "# Your personal information",
+      "type": "text",
+      "id": "Field_0oe0vp1"
+    },
+    {
+      "label": "Your first name",
+      "type": "textfield",
+      "id": "Field_0puwkvq",
+      "key": "customer_first_name",
+      "description": "String = Magnus"
+    },
+    {
+      "label": "Your last name",
+      "type": "textfield",
+      "id": "Field_0ajm5r0",
+      "key": "field_1uqbdy8",
+      "description": "String = Olovson"
+    },
+    {
+      "label": "SSN",
+      "type": "textfield",
+      "id": "Field_16skqn6",
+      "key": "customer_ssn",
+      "description": "String = 01015512345"
+    },
+    {
+      "label": "How old are you",
+      "type": "number",
+      "id": "Field_0vink3s",
+      "key": "customer_age",
+      "description": "Integer = 30"
+    },
+    {
+      "label": "Email",
+      "type": "textfield",
+      "id": "Field_13n909p",
+      "key": "field_09mfcnp",
+      "description": "String = mail@mail.com"
+    },
+    {
+      "label": "Mobile number",
+      "type": "number",
+      "id": "Field_0gpadou",
+      "key": "field_1wjbc8t",
+      "description": "String = 427 34 433"
+    }
+  ],
+  "type": "default",
+  "id": "customer_personal_info",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.8.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 7
+}
